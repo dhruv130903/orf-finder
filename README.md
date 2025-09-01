@@ -1,2 +1,14 @@
-# orf-finder
-ORF Finder Tool is a Python-based bioinformatics utility that identifies Open Reading Frames (ORFs) in DNA sequences. ORFs are regions in a DNA sequence that potentially code for proteins, starting with a start codon (ATG) and ending with a stop codon (TAA, TAG, or TGA).
+# ORF Finder Tool 🧬
+
+A Python tool to find Open Reading Frames (ORFs) in DNA sequences.  
+It processes FASTA sequences, removes headers, cleans input, and finds ORFs above a minimum length.
+
+## Features
+- Supports FASTA format
+- Scans all reading frames
+- Minimum ORF length filter
+- Easy to use
+
+## Usage
+```bash
+python orf_finder.py sequence.fasta
